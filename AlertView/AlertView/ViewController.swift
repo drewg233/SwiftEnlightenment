@@ -20,8 +20,10 @@ class ViewController: UIViewController {
         setUpUI()
     }
     
-    // # setUpUI
-    // Sets up the initial UI for when the app loads.
+    /**
+     # setUpUI
+     Sets up the initial UI for when the app loads.
+    */
     func setUpUI() {
         showAlertButton.buttonColor = UIColor.flatSkyBlueColor()
         showAlertButton.shadowColor = UIColor.flatSkyBlueColorDark()
@@ -33,8 +35,10 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.flatWhiteColor()
     }
     
-    // # showAlertAction
-    // Displays an alert when the button is pressed.
+    /**
+     # showAlertAction
+     Displays an alert when the button is pressed.
+    */
     @IBAction func showAlertAction(sender: AnyObject) {
         let alertController = UIAlertController(title: "Hello World!", message:
             "My Name is Andrew Garcia.", preferredStyle: UIAlertControllerStyle.Alert)
