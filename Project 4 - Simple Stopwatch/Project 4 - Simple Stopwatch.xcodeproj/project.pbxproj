@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9ABAE831C98EDAB00DF269A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ABAE821C98EDAB00DF269A /* AppDelegate.swift */; };
+		B9ABAE851C98EDAB00DF269A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ABAE841C98EDAB00DF269A /* ViewController.swift */; };
+		B9ABAE881C98EDAB00DF269A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9ABAE861C98EDAB00DF269A /* Main.storyboard */; };
+		B9ABAE8A1C98EDAB00DF269A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9ABAE891C98EDAB00DF269A /* Assets.xcassets */; };
+		B9ABAE8D1C98EDAB00DF269A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9ABAE8B1C98EDAB00DF269A /* LaunchScreen.storyboard */; };
+		C5893F782C00899CC521B862 /* Pods_Project_4___Simple_Stopwatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A209DDAF0F168213DE1690E1 /* Pods_Project_4___Simple_Stopwatch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32D32537F34DEF614C8F119B /* Pods-Project 4 - Simple Stopwatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project 4 - Simple Stopwatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project 4 - Simple Stopwatch/Pods-Project 4 - Simple Stopwatch.release.xcconfig"; sourceTree = "<group>"; };
+		64D0962B0BDA698FDDA4C406 /* Pods-Project 4 - Simple Stopwatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project 4 - Simple Stopwatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Project 4 - Simple Stopwatch/Pods-Project 4 - Simple Stopwatch.debug.xcconfig"; sourceTree = "<group>"; };
+		A209DDAF0F168213DE1690E1 /* Pods_Project_4___Simple_Stopwatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Project_4___Simple_Stopwatch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9ABAE7F1C98EDAB00DF269A /* Project 4 - Simple Stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 4 - Simple Stopwatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9ABAE821C98EDAB00DF269A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9ABAE841C98EDAB00DF269A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9ABAE871C98EDAB00DF269A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9ABAE891C98EDAB00DF269A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9ABAE8C1C98EDAB00DF269A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9ABAE8E1C98EDAB00DF269A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9ABAE7C1C98EDAB00DF269A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5893F782C00899CC521B862 /* Pods_Project_4___Simple_Stopwatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A20D0C33C7AFD2E01ACA5DC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64D0962B0BDA698FDDA4C406 /* Pods-Project 4 - Simple Stopwatch.debug.xcconfig */,
+				32D32537F34DEF614C8F119B /* Pods-Project 4 - Simple Stopwatch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9ABAE761C98EDAB00DF269A = {
+			isa = PBXGroup;
+			children = (
+				B9ABAE811C98EDAB00DF269A /* Project 4 - Simple Stopwatch */,
+				B9ABAE801C98EDAB00DF269A /* Products */,
+				A20D0C33C7AFD2E01ACA5DC1 /* Pods */,
+				D053EDCEB96AA75CEDC637A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9ABAE801C98EDAB00DF269A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9ABAE7F1C98EDAB00DF269A /* Project 4 - Simple Stopwatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9ABAE811C98EDAB00DF269A /* Project 4 - Simple Stopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				B9ABAE821C98EDAB00DF269A /* AppDelegate.swift */,
+				B9ABAE841C98EDAB00DF269A /* ViewController.swift */,
+				B9ABAE861C98EDAB00DF269A /* Main.storyboard */,
+				B9ABAE891C98EDAB00DF269A /* Assets.xcassets */,
+				B9ABAE8B1C98EDAB00DF269A /* LaunchScreen.storyboard */,
+				B9ABAE8E1C98EDAB00DF269A /* Info.plist */,
+			);
+			path = "Project 4 - Simple Stopwatch";
+			sourceTree = "<group>";
+		};
+		D053EDCEB96AA75CEDC637A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A209DDAF0F168213DE1690E1 /* Pods_Project_4___Simple_Stopwatch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9ABAE7E1C98EDAB00DF269A /* Project 4 - Simple Stopwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9ABAE911C98EDAB00DF269A /* Build configuration list for PBXNativeTarget "Project 4 - Simple Stopwatch" */;
+			buildPhases = (
+				799CF450DBD24CF4BD0FFB6C /* Check Pods Manifest.lock */,
+				B9ABAE7B1C98EDAB00DF269A /* Sources */,
+				B9ABAE7C1C98EDAB00DF269A /* Frameworks */,
+				B9ABAE7D1C98EDAB00DF269A /* Resources */,
+				637B5508248D3F7796AC61AE /* Embed Pods Frameworks */,
+				3ABDC83252E24695A2F126CE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 4 - Simple Stopwatch";
+			productName = "Project 4 - Simple Stopwatch";
+			productReference = B9ABAE7F1C98EDAB00DF269A /* Project 4 - Simple Stopwatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9ABAE771C98EDAB00DF269A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andrew Garcia";
+				TargetAttributes = {
+					B9ABAE7E1C98EDAB00DF269A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B9ABAE7A1C98EDAB00DF269A /* Build configuration list for PBXProject "Project 4 - Simple Stopwatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9ABAE761C98EDAB00DF269A;
+			productRefGroup = B9ABAE801C98EDAB00DF269A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9ABAE7E1C98EDAB00DF269A /* Project 4 - Simple Stopwatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9ABAE7D1C98EDAB00DF269A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9ABAE8D1C98EDAB00DF269A /* LaunchScreen.storyboard in Resources */,
+				B9ABAE8A1C98EDAB00DF269A /* Assets.xcassets in Resources */,
+				B9ABAE881C98EDAB00DF269A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3ABDC83252E24695A2F126CE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Project 4 - Simple Stopwatch/Pods-Project 4 - Simple Stopwatch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		637B5508248D3F7796AC61AE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Project 4 - Simple Stopwatch/Pods-Project 4 - Simple Stopwatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		799CF450DBD24CF4BD0FFB6C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9ABAE7B1C98EDAB00DF269A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9ABAE851C98EDAB00DF269A /* ViewController.swift in Sources */,
+				B9ABAE831C98EDAB00DF269A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9ABAE861C98EDAB00DF269A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9ABAE871C98EDAB00DF269A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9ABAE8B1C98EDAB00DF269A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9ABAE8C1C98EDAB00DF269A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9ABAE8F1C98EDAB00DF269A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9ABAE901C98EDAB00DF269A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9ABAE921C98EDAB00DF269A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D0962B0BDA698FDDA4C406 /* Pods-Project 4 - Simple Stopwatch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 4 - Simple Stopwatch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewjohngarcia.Project-4---Simple-Stopwatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9ABAE931C98EDAB00DF269A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D32537F34DEF614C8F119B /* Pods-Project 4 - Simple Stopwatch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 4 - Simple Stopwatch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewjohngarcia.Project-4---Simple-Stopwatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9ABAE7A1C98EDAB00DF269A /* Build configuration list for PBXProject "Project 4 - Simple Stopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9ABAE8F1C98EDAB00DF269A /* Debug */,
+				B9ABAE901C98EDAB00DF269A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9ABAE911C98EDAB00DF269A /* Build configuration list for PBXNativeTarget "Project 4 - Simple Stopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9ABAE921C98EDAB00DF269A /* Debug */,
+				B9ABAE931C98EDAB00DF269A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9ABAE771C98EDAB00DF269A /* Project object */;
+}

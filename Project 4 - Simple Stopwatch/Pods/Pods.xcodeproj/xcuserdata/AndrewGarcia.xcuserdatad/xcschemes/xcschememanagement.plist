@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Font-Awesome-Swift-Font-Awesome-Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Font-Awesome-Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Project 4 - Simple Stopwatch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>455062458913BB2B1D39E579BDEF2685</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9059506BB06F7BE16783C81066F50605</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E5103AA3B86FD939D2C77DC3043B8AC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
