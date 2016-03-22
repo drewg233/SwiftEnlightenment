@@ -31,15 +31,16 @@ class ViewController: UIViewController {
     
     
     @IBAction func playButtonAction(sender: AnyObject) {
-            var fileURL = NSURL(fileURLWithPath: "/Users/AndrewGarcia/Documents/Code/iOS/100DaysOfSwift/Project 8 - PlayLocalVideo/Project 8 - PlayLocalVideo/sampleVideo.mp4")
-        
-            playView = AVPlayer(URL: fileURL)
-        
-            playViewController.player = playView
-        
-            self.presentViewController(playViewController, animated: true) {
+        let videoPath = NSBundle.mainBundle().pathForResource("sampleVideo2", ofType: "mp4")
+        let fileURL = NSURL(fileURLWithPath: videoPath!)
+    
+        playView = AVPlayer(URL: fileURL)
+    
+        playViewController.player = playView
+    
+        self.presentViewController(playViewController, animated: true) {
             self.playViewController.player?.play()
-            }
+        }
     }
     
     

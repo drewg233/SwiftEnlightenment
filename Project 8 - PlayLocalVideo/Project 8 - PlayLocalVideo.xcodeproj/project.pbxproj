@@ -12,6 +12,7 @@
 		B9DC418D1CA20C830077AC1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DC418B1CA20C830077AC1C /* Main.storyboard */; };
 		B9DC418F1CA20C830077AC1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DC418E1CA20C830077AC1C /* Assets.xcassets */; };
 		B9DC41921CA20C830077AC1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DC41901CA20C830077AC1C /* LaunchScreen.storyboard */; };
+		B9DC419B1CA211A20077AC1C /* sampleVideo2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B9DC419A1CA211A20077AC1C /* sampleVideo2.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +23,7 @@
 		B9DC418E1CA20C830077AC1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9DC41911CA20C830077AC1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9DC41931CA20C830077AC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9DC41991CA20DF60077AC1C /* sampleVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sampleVideo.mp4; sourceTree = "<group>"; };
+		B9DC419A1CA211A20077AC1C /* sampleVideo2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sampleVideo2.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +62,7 @@
 				B9DC418E1CA20C830077AC1C /* Assets.xcassets */,
 				B9DC41901CA20C830077AC1C /* LaunchScreen.storyboard */,
 				B9DC41931CA20C830077AC1C /* Info.plist */,
-				B9DC41991CA20DF60077AC1C /* sampleVideo.mp4 */,
+				B9DC419A1CA211A20077AC1C /* sampleVideo2.mp4 */,
 			);
 			path = "Project 8 - PlayLocalVideo";
 			sourceTree = "<group>";
@@ -126,6 +127,7 @@
 			files = (
 				B9DC41921CA20C830077AC1C /* LaunchScreen.storyboard in Resources */,
 				B9DC418F1CA20C830077AC1C /* Assets.xcassets in Resources */,
+				B9DC419B1CA211A20077AC1C /* sampleVideo2.mp4 in Resources */,
 				B9DC418D1CA20C830077AC1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
