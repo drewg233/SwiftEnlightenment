@@ -1,0 +1,6 @@
+framework module Pods_Project_9___PlayYoutubeVideo {
+  umbrella header "Pods-Project 9 - PlayYoutubeVideo-umbrella.h"
+
+  export *
+  module * { export * }
+}
