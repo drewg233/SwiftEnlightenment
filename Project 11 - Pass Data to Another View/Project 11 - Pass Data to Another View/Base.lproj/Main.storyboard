@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_11___Pass_Data_to_Another_View" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4cV-s4-FrA">
+                                <rect key="frame" x="20" y="166" width="560" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="8fe-SY-0NF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQK-jK-aeG">
+                                <rect key="frame" x="237" y="235" width="126" height="44"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.23529411759999999" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="cJZ-Cf-2qk"/>
+                                    <constraint firstAttribute="width" constant="126" id="vK1-EN-xvB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Pass Text">
+                                    <color key="titleColor" red="0.92941176469999998" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="passDataAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gMs-27-BL7"/>
+                                    <segue destination="Sv4-da-2x6" kind="show" id="TmC-UW-21D"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2666666667" green="0.70196078429999997" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="4cV-s4-FrA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="146" id="3BW-tE-Qpx"/>
+                            <constraint firstItem="CQK-jK-aeG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4hL-bc-3xk"/>
+                            <constraint firstItem="CQK-jK-aeG" firstAttribute="top" secondItem="4cV-s4-FrA" secondAttribute="bottom" constant="39" id="Mnv-XF-uIU"/>
+                            <constraint firstItem="4cV-s4-FrA" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="dSq-Iv-uXh"/>
+                            <constraint firstItem="4cV-s4-FrA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="uAm-va-MR9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dataTextField" destination="4cV-s4-FrA" id="NNT-9C-dNx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+        <!--View Controller Two-->
+        <scene sceneID="T8R-xe-gk2">
+            <objects>
+                <viewController id="Sv4-da-2x6" customClass="ViewControllerTwo" customModule="Project_11___Pass_Data_to_Another_View" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vvl-jt-LO1"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y7e-p5-t03"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AlR-bi-Naz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVT-pd-Gyh">
+                                <rect key="frame" x="20" y="91" width="560" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="c7c-YY-0ks"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.92941176469999998" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90588235289999997" green="0.29803921570000003" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZVT-pd-Gyh" firstAttribute="trailing" secondItem="AlR-bi-Naz" secondAttribute="trailingMargin" id="Rvj-z6-7b9"/>
+                            <constraint firstItem="ZVT-pd-Gyh" firstAttribute="top" secondItem="vvl-jt-LO1" secondAttribute="bottom" constant="71" id="YRa-JY-kVv"/>
+                            <constraint firstItem="ZVT-pd-Gyh" firstAttribute="leading" secondItem="AlR-bi-Naz" secondAttribute="leadingMargin" id="r6d-TG-0t5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dataLabel" destination="ZVT-pd-Gyh" id="gmd-du-6vX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9xC-Fn-nqa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="996" y="429"/>
+        </scene>
+    </scenes>
+</document>
