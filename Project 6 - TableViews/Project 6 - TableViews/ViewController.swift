@@ -40,7 +40,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = UITableViewCell()
+        let cell = UITableViewCell()
         cell.textLabel?.text = myExampleData[indexPath.row]
         return cell
     }

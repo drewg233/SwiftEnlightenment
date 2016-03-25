@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_13___Image_Picker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qj6-Jw-Djl">
+                                <rect key="frame" x="20" y="118" width="560" height="299"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="299" id="RfM-I5-Ct3"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7z-rh-3ba">
+                                <rect key="frame" x="219" y="438" width="163" height="49"/>
+                                <color key="backgroundColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="163" id="9ng-Qe-kYl"/>
+                                    <constraint firstAttribute="height" constant="49" id="Rh7-2b-UqW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TamilSangamMN-Bold" family="Tamil Sangam MN" pointSize="19"/>
+                                <state key="normal" title="Choose Image">
+                                    <color key="titleColor" red="0.92941176469999998" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseImageAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l8w-cV-0it"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2666666667" green="0.70196078429999997" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="J7z-rh-3ba" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4pi-Fy-hod"/>
+                            <constraint firstItem="J7z-rh-3ba" firstAttribute="top" secondItem="Qj6-Jw-Djl" secondAttribute="bottom" constant="21" id="HEJ-Nu-GIr"/>
+                            <constraint firstItem="Qj6-Jw-Djl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="98" id="NA8-Y2-sda"/>
+                            <constraint firstItem="Qj6-Jw-Djl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="RhK-Cj-b9u"/>
+                            <constraint firstItem="Qj6-Jw-Djl" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="eTZ-jP-IXL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chooseImageButton" destination="J7z-rh-3ba" id="AT4-em-enf"/>
+                        <outlet property="imageView" destination="Qj6-Jw-Djl" id="MRx-yH-XIJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+</document>
