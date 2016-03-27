@@ -290,6 +290,7 @@
 				B926D9051CA370DE005F86C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

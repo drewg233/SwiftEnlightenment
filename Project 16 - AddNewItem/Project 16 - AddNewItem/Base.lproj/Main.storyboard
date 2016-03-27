@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_16___AddNewItem" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6Rq-eW-a4f">
+                                <rect key="frame" x="0.0" y="44" width="600" height="556"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" red="0.92941176469999998" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H5e-ib-gv5">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="fw5-c4-jrw"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.078431372550000003" green="0.53333333329999999" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.92941176469999998" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="My Favorite Music" id="9iH-hk-2CM">
+                                        <barButtonItem key="rightBarButtonItem" title="+" id="593-OR-d48">
+                                            <color key="tintColor" red="0.92941176469999998" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="addToListAction:" destination="BYZ-38-t0r" id="8e8-05-xa1"/>
+                                                <segue destination="1A7-hF-BEH" kind="show" id="WJU-0u-ClD"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6Rq-eW-a4f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8yb-80-7rP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6Rq-eW-a4f" secondAttribute="bottom" id="AHc-s8-rUb"/>
+                            <constraint firstAttribute="trailing" secondItem="6Rq-eW-a4f" secondAttribute="trailing" id="D4h-ea-DfA"/>
+                            <constraint firstItem="H5e-ib-gv5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LL1-uB-AvK"/>
+                            <constraint firstAttribute="trailing" secondItem="H5e-ib-gv5" secondAttribute="trailing" id="UES-vj-a43"/>
+                            <constraint firstItem="6Rq-eW-a4f" firstAttribute="top" secondItem="H5e-ib-gv5" secondAttribute="bottom" id="aOi-cq-sTv"/>
+                            <constraint firstItem="H5e-ib-gv5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oJv-Zy-xgE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addToListButton" destination="593-OR-d48" id="NLT-RY-jLL"/>
+                        <outlet property="tableView" destination="6Rq-eW-a4f" id="ARM-5C-Cmc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+        <!--View Controller Two-->
+        <scene sceneID="ANA-ZR-DRu">
+            <objects>
+                <viewController id="1A7-hF-BEH" customClass="ViewControllerTwo" customModule="Project_16___AddNewItem" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qr2-00-cdu"/>
+                        <viewControllerLayoutGuide type="bottom" id="raT-Yq-UuY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pDh-Nz-J5Y">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NM0-tD-gC3">
+                                <rect key="frame" x="20" y="148" width="560" height="52"/>
+                                <color key="backgroundColor" red="0.078431372550000003" green="0.53333333329999999" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="eQa-GK-mBv"/>
+                                </constraints>
+                                <color key="textColor" red="0.92941176469999998" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lUv-4R-4RF">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <color key="backgroundColor" red="0.078431372549019607" green="0.53333333333333333" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="08T-XQ-XP1"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.078431372550000003" green="0.53333333329999999" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.92941176469999998" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Add Music Type" id="def-Vd-XbO"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHq-je-92Y">
+                                <rect key="frame" x="222" y="263" width="156" height="52"/>
+                                <color key="backgroundColor" red="0.9137254901960784" green="0.070588235294117646" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="YlZ-lD-EdW"/>
+                                    <constraint firstAttribute="width" constant="156" id="l7g-gd-u44"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Add To List">
+                                    <color key="titleColor" red="0.96862745098039216" green="0.8784313725490196" blue="0.25490196078431371" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="LkD-uW-apE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12156862745098039" green="0.31764705882352939" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="lUv-4R-4RF" firstAttribute="leading" secondItem="pDh-Nz-J5Y" secondAttribute="leading" id="IoC-cd-t7J"/>
+                            <constraint firstItem="NM0-tD-gC3" firstAttribute="leading" secondItem="pDh-Nz-J5Y" secondAttribute="leadingMargin" id="OIM-mJ-igb"/>
+                            <constraint firstItem="JHq-je-92Y" firstAttribute="top" secondItem="NM0-tD-gC3" secondAttribute="bottom" constant="63" id="PRX-C8-bkg"/>
+                            <constraint firstItem="NM0-tD-gC3" firstAttribute="top" secondItem="lUv-4R-4RF" secondAttribute="bottom" constant="104" id="Ps9-qd-jff"/>
+                            <constraint firstItem="JHq-je-92Y" firstAttribute="centerX" secondItem="pDh-Nz-J5Y" secondAttribute="centerX" id="oIg-Iq-Yow"/>
+                            <constraint firstItem="NM0-tD-gC3" firstAttribute="trailing" secondItem="pDh-Nz-J5Y" secondAttribute="trailingMargin" id="tKT-9F-cMZ"/>
+                            <constraint firstAttribute="trailing" secondItem="lUv-4R-4RF" secondAttribute="trailing" id="ty3-9d-BuD"/>
+                            <constraint firstItem="lUv-4R-4RF" firstAttribute="top" secondItem="pDh-Nz-J5Y" secondAttribute="top" id="vdy-ji-Uvi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addToListButton" destination="JHq-je-92Y" id="NbS-LU-kmg"/>
+                        <outlet property="dataTextField" destination="NM0-tD-gC3" id="jDl-zg-j6x"/>
+                        <outlet property="textField" destination="NM0-tD-gC3" id="1A3-5B-Ug4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MqV-lK-dll" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="958" y="429"/>
+        </scene>
+    </scenes>
+</document>

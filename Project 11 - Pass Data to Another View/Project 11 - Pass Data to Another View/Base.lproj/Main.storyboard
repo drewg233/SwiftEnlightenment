@@ -38,7 +38,6 @@
                                     <color key="titleColor" red="0.92941176469999998" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="passDataAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gMs-27-BL7"/>
                                     <segue destination="Sv4-da-2x6" kind="show" id="TmC-UW-21D"/>
                                 </connections>
                             </button>

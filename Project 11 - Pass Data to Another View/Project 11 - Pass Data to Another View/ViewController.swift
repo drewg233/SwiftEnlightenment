@@ -21,9 +21,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    @IBAction func passDataAction(sender: AnyObject) {
-    }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let destViewController : ViewControllerTwo = segue.destinationViewController as! ViewControllerTwo
