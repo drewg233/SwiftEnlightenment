@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_15___DeletingRearrangingTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rVk-tT-Fp7">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="jHc-Wh-L0s"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Title" id="nzq-Ds-E44">
+                                        <barButtonItem key="leftBarButtonItem" title="Edit" id="MbT-9S-7yi">
+                                            <connections>
+                                                <action selector="startEditing:" destination="BYZ-38-t0r" id="AI6-cz-Yj2"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yJ5-PV-7AZ">
+                                <rect key="frame" x="0.0" y="44" width="600" height="556"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rVk-tT-Fp7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Bwk-Fh-SJh"/>
+                            <constraint firstAttribute="trailing" secondItem="yJ5-PV-7AZ" secondAttribute="trailing" id="E5q-Ab-SYj"/>
+                            <constraint firstAttribute="trailing" secondItem="rVk-tT-Fp7" secondAttribute="trailing" id="FxE-2n-Iza"/>
+                            <constraint firstItem="rVk-tT-Fp7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Y96-iO-79I"/>
+                            <constraint firstItem="yJ5-PV-7AZ" firstAttribute="top" secondItem="rVk-tT-Fp7" secondAttribute="bottom" id="khS-Pl-JBp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yJ5-PV-7AZ" secondAttribute="bottom" id="pbI-2e-rdo"/>
+                            <constraint firstItem="yJ5-PV-7AZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="siO-UQ-zxk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="yJ5-PV-7AZ" id="cIo-Pl-g7X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+</document>

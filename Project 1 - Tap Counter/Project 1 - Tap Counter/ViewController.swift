@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func mainTapButtonAction(sender: AnyObject) {
-        count++
+        count += 1
         countLabel.text = "\(count)"
     }
 
