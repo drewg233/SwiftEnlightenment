@@ -12,12 +12,10 @@
 		B99184A11C935F1A006F216F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B991849F1C935F1A006F216F /* Main.storyboard */; };
 		B99184A31C935F1A006F216F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99184A21C935F1A006F216F /* Assets.xcassets */; };
 		B99184A61C935F1A006F216F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B99184A41C935F1A006F216F /* LaunchScreen.storyboard */; };
-		FD5BE3CD1DF410574140AEAF /* Pods_AlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA7EC107CE8A1C871E15E6A /* Pods_AlertView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3BA7EC107CE8A1C871E15E6A /* Pods_AlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B8478BB650FF6B10FE331B6 /* Pods-AlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertView.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlertView/Pods-AlertView.release.xcconfig"; sourceTree = "<group>"; };
 		B99184981C935F1A006F216F /* AlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B991849B1C935F1A006F216F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B991849D1C935F1A006F216F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +23,6 @@
 		B99184A21C935F1A006F216F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B99184A51C935F1A006F216F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B99184A71C935F1A006F216F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA2E8C6E143F4ECF9DD1DA1A /* Pods-AlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlertView/Pods-AlertView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +30,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD5BE3CD1DF410574140AEAF /* Pods_AlertView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,21 +44,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A46632491A6CFFDA6B230BA0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CA2E8C6E143F4ECF9DD1DA1A /* Pods-AlertView.debug.xcconfig */,
-				5B8478BB650FF6B10FE331B6 /* Pods-AlertView.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		B991848F1C935F1A006F216F = {
 			isa = PBXGroup;
 			children = (
 				B991849A1C935F1A006F216F /* AlertView */,
 				B99184991C935F1A006F216F /* Products */,
-				A46632491A6CFFDA6B230BA0 /* Pods */,
 				25543183FC27785C3F6E48F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -95,12 +81,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B99184AA1C935F1A006F216F /* Build configuration list for PBXNativeTarget "AlertView" */;
 			buildPhases = (
-				A1CAC11E84ED5F743860285D /* Check Pods Manifest.lock */,
 				B99184941C935F1A006F216F /* Sources */,
 				B99184951C935F1A006F216F /* Frameworks */,
 				B99184961C935F1A006F216F /* Resources */,
-				018F8ADACDB4C183BF9FE9C5 /* Embed Pods Frameworks */,
-				5BF3FD39FD1241FE45BBE36B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,54 +139,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		018F8ADACDB4C183BF9FE9C5 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlertView/Pods-AlertView-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5BF3FD39FD1241FE45BBE36B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlertView/Pods-AlertView-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A1CAC11E84ED5F743860285D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B99184941C935F1A006F216F /* Sources */ = {
@@ -322,7 +257,6 @@
 		};
 		B99184AB1C935F1A006F216F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA2E8C6E143F4ECF9DD1DA1A /* Pods-AlertView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlertView/Info.plist;
@@ -334,7 +268,6 @@
 		};
 		B99184AC1C935F1A006F216F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B8478BB650FF6B10FE331B6 /* Pods-AlertView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlertView/Info.plist;

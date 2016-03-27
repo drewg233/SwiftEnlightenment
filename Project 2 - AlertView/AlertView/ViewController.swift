@@ -7,33 +7,22 @@
 //
 
 import UIKit
-import FlatUIKit
-import ChameleonFramework
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var showAlertButton: FUIButton!
+    @IBOutlet weak var showAlertButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        setUpUI()
+        // Do any additional setup after loading the view, typically from a nib.
+        showAlertButton.layer.cornerRadius = 10
     }
     
-    /**
-     # setUpUI
-     Sets up the initial UI for when the app loads.
-    */
-    func setUpUI() {
-        showAlertButton.buttonColor = UIColor.flatSkyBlueColor()
-        showAlertButton.shadowColor = UIColor.flatSkyBlueColorDark()
-        showAlertButton.shadowHeight = 3.0
-        showAlertButton.cornerRadius = 6.0
-        showAlertButton.titleLabel?.font = UIFont.boldFlatFontOfSize(16)
-        showAlertButton.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Normal)
-        
-        self.view.backgroundColor = UIColor.flatWhiteColor()
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
+    
     
     /**
      # showAlertAction
