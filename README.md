@@ -5,6 +5,8 @@ Hey! I started this this to better expand my knowledge of Swift and hope to help
 
 ----------
 
+[View Blog Here](http://andrewjohngarcia.com/swiftenlightenment.html)
+
 
 Projects
 -------------
