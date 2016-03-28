@@ -41,3 +41,7 @@ Projects
 ![Project 14](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project14.gif)
 #### :star2: Project 15 - Delete Rearrange
 ![Project 15](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project15.gif)
+#### :star2: Project 16 - Add To List
+![Project 14](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project16.gif)
+#### :star2: Project 17 - Custom TableView
+![Project 15](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project17.gif)
