@@ -3,6 +3,8 @@ Welcome to Swift Enlightenment
 
 Hey! I started this this to better expand my knowledge of Swift and hope to help others do the same. I have already known Swift but will start from the basics. This was inspired by a couple other blogs and repos, just decided to make my own, and open source :smiley:
 
+[![Twitter Follow](https://img.shields.io/twitter/follow/drewg233.svg?style=social)](https://twitter.com/drewg233)
+
 ----------
 
 [View Blog Here](http://andrewjohngarcia.com/swiftenlightenment.html)
