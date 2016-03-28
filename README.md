@@ -12,36 +12,36 @@ Projects
 -------------
 
 #### :star2: Project 1 - Tap Counter
-![Project 1](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project1.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project1.gif" width="248">
 #### :star2: Project 2 - Show Alert
-![Project 2](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project2.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project2.gif" width="248">
 #### :star2: Project 3 - Tip Calculator
-![Project 3](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project3.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project3.gif" width="248">
 #### :star2: Project 4 - Stopwatch
-![Project 4](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project4.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project4.gif" width="248">
 #### :star2: Project 5 - Font Changer
-![Project 5](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project5.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project5.gif" width="248">
 #### :star2: Project 6 - TableView
-![Project 6](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project6.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project6.gif" width="248">
 #### :star2: Project 7 - CollectionView
-![Project 7](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project7.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project7.gif" width="248">
 #### :star2: Project 8 - Play Local Video
-![Project 8](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project8.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project8.gif" width="248">
 #### :star2: Project 9 - Play YouTube Video
-![Project 9](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project9.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project9.gif" width="248">
 #### :star2: Project 10 - Get Time
-![Project 10](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project10.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project10.gif" width="248">
 #### :star2: Project 11 - Passing Data
-![Project 11](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project11.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project11.gif" width="248">
 #### :star2: Project 12 - Slide To Dismiss
-![Project 12](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project12.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project12.gif" width="248">
 #### :star2: Project 13 - Image Picker
-![Project 13](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project13.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project13.gif" width="248">
 #### :star2: Project 14 - Pull to Refresh
-![Project 14](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project14.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project14.gif" width="248">
 #### :star2: Project 15 - Delete Rearrange
-![Project 15](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project15.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project15.gif" width="248">
 #### :star2: Project 16 - Add To List
-![Project 14](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project16.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project16.gif" width="248">
 #### :star2: Project 17 - Custom TableView
-![Project 15](https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project17.gif)
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project17.gif" width="248">
