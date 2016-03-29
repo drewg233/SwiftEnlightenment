@@ -47,3 +47,7 @@ Projects
 <img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project16.gif" width="248">
 #### :star2: Project 17 - Custom TableView
 <img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project17.gif" width="248">
+#### :star2: Project 18 - Custom CollectionView
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project18.gif" width="248">
+#### :star2: Project 19 - Get Location
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project19.gif" width="248">
