@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_18___CustomCollectionView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mV3-dJ-XqT">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="DWo-A9-o16"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="My Movies" id="6yc-2w-4Nc"/>
+                                </items>
+                            </navigationBar>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZVT-bp-hcy">
+                                <rect key="frame" x="0.0" y="92" width="600" height="508"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="MGO-vq-uXQ">
+                                    <size key="itemSize" width="123" height="208"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="customCell" id="DVk-mF-gtr" customClass="CustomCollectionViewCell" customModule="Project_18___CustomCollectionView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="123" height="208"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="123" height="208"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j3a-kP-0ww">
+                                                    <rect key="frame" x="-3" y="0.0" width="126" height="208"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <outlet property="movieImage" destination="j3a-kP-0ww" id="rbA-yq-Uky"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mV3-dJ-XqT" secondAttribute="trailing" id="27e-Ro-EsO"/>
+                            <constraint firstItem="mV3-dJ-XqT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="N5N-7o-lTR"/>
+                            <constraint firstItem="ZVT-bp-hcy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Wke-Pm-liN"/>
+                            <constraint firstAttribute="trailing" secondItem="ZVT-bp-hcy" secondAttribute="trailing" id="aNC-bb-GTf"/>
+                            <constraint firstItem="mV3-dJ-XqT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="iQL-50-BuE"/>
+                            <constraint firstItem="ZVT-bp-hcy" firstAttribute="top" secondItem="mV3-dJ-XqT" secondAttribute="bottom" constant="22" id="vYZ-2s-2is"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ZVT-bp-hcy" secondAttribute="bottom" id="ywA-R9-Vx3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="ZVT-bp-hcy" id="Nxm-HR-Hdf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+</document>
