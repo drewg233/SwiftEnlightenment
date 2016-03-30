@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project21___VideoBackground" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWa-Sj-dbO">
+                                <rect key="frame" x="204" y="482" width="193" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="193" id="1cX-Di-632"/>
+                                    <constraint firstAttribute="height" constant="42" id="yBt-gk-oVb"/>
+                                </constraints>
+                                <state key="normal" title="Login"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qwF-BH-lT3">
+                                <rect key="frame" x="204" y="425" width="193" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="193" id="QwT-AJ-JZb"/>
+                                    <constraint firstAttribute="height" constant="42" id="hKD-64-T2z"/>
+                                </constraints>
+                                <state key="normal" title="Create New"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jWa-Sj-dbO" secondAttribute="bottom" constant="76" id="YOG-Xv-1Bp"/>
+                            <constraint firstItem="qwF-BH-lT3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c57-Ph-Eko"/>
+                            <constraint firstItem="jWa-Sj-dbO" firstAttribute="top" secondItem="qwF-BH-lT3" secondAttribute="bottom" constant="15" id="hmr-Gb-ffF"/>
+                            <constraint firstItem="jWa-Sj-dbO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tef-Im-eBh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="createNewButton" destination="qwF-BH-lT3" id="EHU-Qa-thj"/>
+                        <outlet property="loginButton" destination="jWa-Sj-dbO" id="GzC-Rl-dem"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+</document>
