@@ -56,4 +56,4 @@ Projects
 #### :star2: Project 21 - VideoBackground
 <img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project21.gif" width="248">
 #### :star2: Project 22 - ScrollView
-<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project21.gif" width="248">
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project22.gif" width="248">
