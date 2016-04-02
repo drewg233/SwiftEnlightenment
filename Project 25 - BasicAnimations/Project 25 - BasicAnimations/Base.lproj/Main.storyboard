@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Montserrat-Bold.otf">
+            <string>Montserrat-Bold</string>
+            <string>Montserrat-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_25___BasicAnimations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zca-fZ-bq3">
+                                <rect key="frame" x="20" y="64" width="560" height="53"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5rB-8i-qZt">
+                                <rect key="frame" x="166" y="163" width="269" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7BG-pC-NDe"/>
+                                    <constraint firstAttribute="width" constant="269" id="n0B-jO-AiK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NUh-nn-UEe">
+                                <rect key="frame" x="166" y="226" width="269" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="269" id="iVS-cS-Jx8"/>
+                                    <constraint firstAttribute="height" constant="40" id="sbV-T7-1sR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adP-db-D5l">
+                                <rect key="frame" x="166" y="295" width="269" height="45"/>
+                                <color key="backgroundColor" red="0.61960784310000006" green="0.47843137250000001" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="21J-yl-h7A"/>
+                                    <constraint firstAttribute="width" constant="269" id="aaa-KR-5fc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="18"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nym-er-xiI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1764705882352941" green="0.22352941176470587" blue="0.25490196078431371" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="zca-fZ-bq3" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="EuX-6d-xwt"/>
+                            <constraint firstItem="NUh-nn-UEe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JX1-LH-FfR"/>
+                            <constraint firstItem="5rB-8i-qZt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TYf-lq-Ih9"/>
+                            <constraint firstItem="5rB-8i-qZt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="143" id="jZB-UN-6Q0"/>
+                            <constraint firstItem="zca-fZ-bq3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="mxa-co-wci"/>
+                            <constraint firstItem="5rB-8i-qZt" firstAttribute="top" secondItem="zca-fZ-bq3" secondAttribute="bottom" constant="46" id="mzS-k0-Teh"/>
+                            <constraint firstItem="NUh-nn-UEe" firstAttribute="top" secondItem="5rB-8i-qZt" secondAttribute="bottom" constant="23" id="oOt-SE-Qco"/>
+                            <constraint firstItem="zca-fZ-bq3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="pFA-iU-Du9"/>
+                            <constraint firstItem="adP-db-D5l" firstAttribute="top" secondItem="NUh-nn-UEe" secondAttribute="bottom" constant="29" id="sPe-L7-7rK"/>
+                            <constraint firstItem="adP-db-D5l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zFT-5M-6yc"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="jZB-UN-6Q0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="centerLoginButton" destination="zFT-5M-6yc" id="yX3-kt-zuu"/>
+                        <outlet property="centerPasswordTextField" destination="JX1-LH-FfR" id="9iK-P0-wNg"/>
+                        <outlet property="centerUserNameTextField" destination="TYf-lq-Ih9" id="WF6-w4-iB7"/>
+                        <outlet property="loginButton" destination="adP-db-D5l" id="kah-x7-QQO"/>
+                        <outlet property="passwordTextField" destination="NUh-nn-UEe" id="U8h-LH-PKj"/>
+                        <outlet property="userNameTextField" destination="5rB-8i-qZt" id="Gll-AS-1aL"/>
+                        <outlet property="welcomeLabel" destination="zca-fZ-bq3" id="cje-fY-Du3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="475" y="450"/>
+        </scene>
+    </scenes>
+</document>
