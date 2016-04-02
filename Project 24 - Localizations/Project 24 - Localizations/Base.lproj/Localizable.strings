@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Project 24 - Localizations
+
+  Created by Andrew Garcia on 4/2/16.
+  Copyright © 2016 Andrew Garcia. All rights reserved.
+*/
+
+"Hello" = "Hello";
