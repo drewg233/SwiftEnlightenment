@@ -1,0 +1,6 @@
+framework module Pods_Project_28___APICall {
+  umbrella header "Pods-Project 28 - APICall-umbrella.h"
+
+  export *
+  module * { export * }
+}
