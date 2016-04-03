@@ -63,3 +63,5 @@ Projects
 <img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project24.gif" width="248">
 #### :star2: Project 25 - BasicAnimations
 <img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project25.gif" width="248">
+#### :star2: Project 26 - SnapChatCamera
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project26.gif" width="248">
