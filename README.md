@@ -70,4 +70,4 @@ Projects
 #### :star2: Project 28 - API Call
 <img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project28.png" width="248">
 #### :star2: Project 29 - FullScreenAds
-<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project29.png" width="248">
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project29.gif" width="248">
