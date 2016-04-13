@@ -71,3 +71,5 @@ Projects
 <img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project28.png" width="248">
 #### :star2: Project 29 - FullScreenAds
 <img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project29.gif" width="248">
+#### :star2: Project 30 - SlideOutMenu
+<img src="https://raw.githubusercontent.com/drewg233/SwiftEnlightenment/master/images/Project30.gif" width="248">
